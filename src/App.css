@@ -1,0 +1,162 @@
+/* App.css */
+.root {
+  background-color: #121B22;
+  width: 100%;
+  height: 100% ; 
+}
+
+.slide-enter {
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+ 
+}
+
+.slide-enter-active {
+  transform: translateX(0);
+}
+
+.slide-exit {
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide-exit-active {
+  transform: translateX(100%);
+}
+
+
+.setting {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space out the items evenly */
+ 
+background-color:#121B22;
+  border-bottom: solid #444 1px ;
+  top: 0;
+ 
+}
+
+.left-items {
+  display: flex;
+  align-items: center;
+
+}
+
+.left-items i {
+  margin-right: 10px; /* Add some space between the icon and the heading */
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+
+}
+
+.item{
+  margin-top: 65px;
+  background-color: #121B22;
+  width: 100%;
+ }
+
+
+
+
+h2{
+  color: snow;
+  font-size: 18px;
+}
+span{
+  color: silver;
+}
+.profile{
+  display: flex;
+  width: 100%;
+  height: 100px;
+column-gap: 10px;
+  border-bottom:   1px solid #444  ;
+  align-items: center;
+  justify-content: space-between;
+}
+.Pname{
+  height: 100px;
+  line-height: 10px;
+ margin-top: 30px;
+width: 50%;
+
+}
+.picon{
+ width: 20%;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+padding: 10px;
+column-gap: 10px;
+}
+.ping{
+  width: 25%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.option {
+  margin-top: 10px;
+ 
+  display: flex;
+  align-items: center;
+  
+  padding: 10px;
+  color: #ccc;
+  column-gap: 10px;
+  padding-left: 20px;
+}
+
+.option i {
+margin-right: 20px;
+  color: #ccc; /* Icon color */
+}
+.option:hover {
+  background-color: #333; /* Darker background on hover */
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column; /* Arrange h3 and span in a column */
+}
+
+.text-content h3 {
+  margin: 0; /* Remove default margin */
+  font-size: 15px;
+}
+
+.text-content span {
+  color: #999; /* Lighter text color for the description */
+  font-size: 0.9em; /* Smaller font size for the description */
+} 
+
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70px; /* Adjust the height as needed */
+ /* Dark mode background color */
+  color: #fff; /* Text color for footer */
+  padding: 10px;
+}
+
+.footer span {
+  display: block;
+  text-align: center;
+
+}
+
